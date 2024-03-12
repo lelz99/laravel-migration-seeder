@@ -16,8 +16,8 @@ return new class extends Migration
             $table->string('rail_company', 100);
             $table->string('departure_station', 50);
             $table->string('arrival_station', 50);
-            $table->datetime('departure_time')->nullable();
-            $table->datetime('arrival_time')->nullable();
+            $table->time('departure_time')->nullable();
+            $table->time('arrival_time')->nullable();
             $table->char('train_code', 6);
             $table->integer('carriage');
             $table->boolean('on_time')->default(1);
