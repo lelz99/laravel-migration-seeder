@@ -1,5 +1,4 @@
 @extends('layouts.main')
-
 @section('table-trains')
 <section id="table-trains " class="container mt-5">
     <table class="table">
